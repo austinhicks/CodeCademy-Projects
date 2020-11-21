@@ -38,6 +38,8 @@ def shipping_calc():
     else:
         print('The cheapest shipping method is PREMIUM GROUND SHIPPING') # All others - basically just when premium ground is the cheapest
         print('It will cost $' + str(premium_shipping))
+    print("")
+    print("Thank you for using Sal's Shipping!"
 
 
 shipping_calc()
